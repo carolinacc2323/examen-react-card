@@ -222,3 +222,16 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+.navbar ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+.navbar li{
+  list-style: none;
+  padding: .5em;
+}
+.navbar a{
+  text-decoration: none;
+}

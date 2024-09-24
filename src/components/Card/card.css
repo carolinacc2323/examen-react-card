@@ -56,26 +56,31 @@ Color del Icono Primario: #007ACC.
 Color del Icono Secundario: #333333. */
 .container-card{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 24px;
 }
-.card{
-    background-color: #E5F6FF ;
-    color: black;
+.card {
+    background-color: #e6f7ff;
     max-width: 300px;
-    padding: 16px;
-    border-radius: solid 8px #DDDDDD;
-    margin: 1em;
+    border-radius: 10px;
+    border: solid #DDDDDD;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+    transition: transform 0.3s ease;
 }
 button {
     align-items: center;
     height: 48px;
-    width: 150px;
+    width: 260px;
     background-color: #007ACC;
     color: #FFFFFF;
     padding: 10px 20px;
     text-align: center;
-    
     border: none;
     border-radius: 8px;
     font-size: 0.9rem;
@@ -83,4 +88,12 @@ button {
 .card a {
     text-decoration: none;
     color: #FFFFFF;
+}
+.card h2{
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+.card p{
+    font-size: 16px;
+    font-family: 'Montserrat,sans-serif';
 }

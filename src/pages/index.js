@@ -10,7 +10,11 @@ import Card from "../components/Card/card"
 const IndexPage = () => (
   <Layout>
     <h1>Este es la página de Inicio</h1>
-    <Card/>
+    <Card
+      image='./images/react.jpg'
+      title='Gatito chiquito'
+      description='bonito'
+    />
   </Layout>
 )
 
